@@ -20,6 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 10px;
+  gap : 15px;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -54,6 +70,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 button.continue {
